@@ -1,0 +1,35 @@
+.form-amigo{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #707070;
+}
+
+.form-amigo > div {
+    width: 70%;
+    height: fit-content;
+    text-align: left  ;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+.form-amigo > div > div {
+    width: 40%;
+}
+
+.form-amigo > div > div > input {
+    width: 100%;
+}
+
+@media (max-width: 720px){
+    .form-amigo > div {
+        width: 90%;
+        flex-direction: column  ;
+    }
+    .form-amigo > div > div {
+        width: 100%;
+    }
+}
